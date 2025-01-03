@@ -1,0 +1,79 @@
+/* Typography */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffeefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.title {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: transparent;
+    background: linear-gradient(135deg, #0a3a71, #51bedf, #55cebc);
+    background-size: 500px 100%;
+    background-clip: text;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Card */
+.card {
+    background-color: #ec6c95;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h4 {
+    text-align: center;
+    color: #333333;
+}
+
+/* Form */
+.form-label {
+    font-weight: bold;
+    color: #555555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message */
+#errorMessage {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}

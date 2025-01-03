@@ -1,0 +1,173 @@
+/* General Styles */
+.body {
+  background-color: #a16fd7;
+}
+
+.background {
+  background-color: #9cc3e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Header Title */
+.title {
+  font-family: "Monomaniac One", serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #145aab, #ba53e2, #50ae3d);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+
+/* Contact Form */
+.contact-form {
+  background: #b6d1ef;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(192, 133, 133, 0.4);
+}
+
+.contact-form .form-control {
+  background: #6a9e86;
+  color: #fff;
+  border: none;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+.contact-form .btn-submit {
+  background: linear-gradient(90deg, #6c63ff, #482ff7);
+  border: none;
+  color: #fff;
+}
+
+.contact-form .btn-submit:hover {
+  background: linear-gradient(90deg, #482ff7, #7d94c8);
+}
+
+/* Contact Info */
+.contact-info {
+  margin-top: 2rem;
+  color: rgba(102, 97, 176, 0.8);
+}
+
+.contact-info h3 {
+  color: #333eb8;
+}
+
+.contact-info p {
+  margin-bottom: 1rem;
+}
+
+.contact-info p .icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #333eb8;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #333eb8;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Title */
+.title_footer {
+  font-family: "Arial", serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #1e5799, #2ce0bf, #7ddd2c);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+}
+
+footer h5 {
+  color: #1e5799;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #aaa;
+}
+
+footer ul li a:hover {
+  color: #23bdff;
+  text-decoration: underline;
+}
+
+footer .contact p {
+  margin-bottom: 10px;
+}
+
+footer .contact a {
+  color: #ab1c1c;
+}
+
+footer .contact a:hover {
+  color: #6d0606;
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.blue {
+  background-color: rgb(45, 108, 180);
+}
+
+.blue:hover {
+  background-color: rgba(45, 108, 180, 0.5);
+}
+
+.yellow {
+  background-color: rgb(209, 206, 9);
+}
+
+.yellow:hover {
+  background-color: rgba(209, 206, 9, 0.5);
+}
+
+.card_transparent {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.justify {
+  text-align: justify;
+}
+
+.box_small {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+  

@@ -1,0 +1,114 @@
+/* Title Styling */
+.title {
+  font-family: "Monomaniac One", serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #145aab, #ba53e2, #50ae3d);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+
+/* Body Styling */
+body {
+  background-color: #e6b1d7;
+  font-family: "Arial", serif;
+  color: black;
+}
+
+/* Text Alignment */
+.justify {
+  text-align: justify;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Footer Title Styling */
+.title_footer {
+  font-family: "Arial", serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #1e5799, #2ce0bf, #7ddd2c);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+
+/* Color Styles */
+.blue {
+  background-color: rgb(45, 108, 180);
+}
+
+.blue:hover {
+  background-color: rgba(45, 108, 180, 0.5);
+}
+
+.yellow {
+  background-color: rgb(209, 206, 9);
+}
+
+.yellow:hover {
+  background-color: rgba(209, 206, 9, 0.5);
+}
+
+.card_transparent {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Box Styling */
+.box_small {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #000;
+}
+
+footer h5 {
+  color: #1e5799;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #aaa;
+}
+
+footer ul li a:hover {
+  color: #23bdff;
+  text-decoration: underline;
+}
+
+footer .contact p {
+  margin-bottom: 10px;
+}
+
+footer .contact a {
+  color: #ab1c1c;
+}
+
+footer .contact a:hover {
+  color: #6d0606;
+  text-decoration: underline;
+}

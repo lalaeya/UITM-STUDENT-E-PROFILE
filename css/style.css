@@ -1,0 +1,95 @@
+/* Title Styles */
+.title {
+  font-family: "Monomaniac One", serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #145aab, #ba53e2, #50ae3d);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+
+/* General Styles */
+body {
+  font-family: "Arial", serif;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #626161, #007bff);
+  color: #fff;
+}
+
+/* Features Section */
+h3 {
+  background: linear-gradient(135deg, #b493db, #007bff);
+  color: #ffffff;
+}
+
+.col-md-4 i {
+  color: #007bff;
+}
+
+.col-md-4 h4 {
+  margin-top: 15px;
+  color: #0056b3;
+}
+
+.col-md-4 p {
+  color: #8d6f6f;
+}
+
+/* Footer Title */
+.title_footer {
+  font-family: "Arial", serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #1e5799, #2ce0bf, #7ddd2c);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000;
+}
+
+footer h5 {
+  color: #1e5799;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #aaa;
+}
+
+footer ul li a:hover {
+  color: #23bdff;
+  text-decoration: underline;
+}
+
+/* Footer Contact Styles */
+footer .contact p {
+  margin-bottom: 10px;
+}
+
+footer .contact a {
+  color: #3825cb;
+}
+
+footer .contact a:hover {
+  color: #313899;
+  text-decoration: underline;
+}
